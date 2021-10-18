@@ -2,9 +2,21 @@
 <html>
     <head>
         <title>Home work 10</title>
-        <script src="index.js"></script>
+        <!-- <script src="index.js"></script> -->
     </head>
     <body>
-        <button>Click here</button>
+        
+       
+    <button onclick="greeting(myName,age,answer)">Click here</button>
+    <script> greeting = function(name, age, answer) {
+        alert('Hello!\nMy name ' + name 
+        + '\nI\'m ' + age 
+        + '\nDo you like learning Front End?\n' + answer);
+       }
+    let myName = 'Iryna';
+    let age = 32;
+    let answer = 'Yes';
+</script>
     </body>
+
 </html>
